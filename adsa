@@ -1,0 +1,31 @@
+ <div class="firmware-item">
+            <div class="firmware-info">
+                <div class="firmware-name">KirieshkaPhone OS 2.0.3</div>
+                <div class="firmware-details">Дата выпуска: 10.03.2023 | Размер: 240 MB</div>
+            </div>
+            <a href="/firmwares/KirieshkaPhone-OS-2.0.3.zip" class="download-btn">Скачать</a>
+        </div>
+        
+        <div class="firmware-item">
+            <div class="firmware-info">
+                <div class="firmware-name">KirieshkaPhone OS 1.9.5</div>
+                <div class="firmware-details">Дата выпуска: 15.01.2023 | Размер: 235 MB</div>
+            </div>
+            <a href="/firmwares/KirieshkaPhone-OS-1.9.5.zip" class="download-btn">Скачать</a>
+        </div>
+        
+        <div class="firmware-item">
+            <div class="firmware-info">
+                <div class="firmware-name">KirieshkaPhone OS 1.8.2</div>
+                <div class="firmware-details">Дата выпуска: 20.11.2022 | Размер: 230 MB</div>
+            </div>
+            <a href="/firmwares/KirieshkaPhone-OS-1.8.2.zip" class="download-btn">Скачать</a>
+        </div>
+        
+        <div class="firmware-item">
+            <div class="firmware-info">
+                <div class="firmware-name">KirieshkaPhone OS 1.7.0</div>
+                <div class="firmware-details">Дата выпуска: 05.09.2022 | Размер: 225 MB</div>
+            </div>
+            <a href="/firmwares/KirieshkaPhone-OS-1.7.0.zip" class="download-btn">Скачать</a>
+        </div>
