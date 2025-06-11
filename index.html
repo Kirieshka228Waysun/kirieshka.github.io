@@ -1,2 +1,109 @@
-<head></head>
-<body><h1>gfgfd</h1></body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прошивки для KirieshkaPhone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .firmware-list {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .firmware-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .firmware-info {
+            flex-grow: 1;
+        }
+        .firmware-name {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .firmware-details {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+        .latest-btn {
+            display: block;
+            width: 100%;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.1em;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .latest-btn:hover {
+            background-color: #0b7dda;
+        }
+        .version-badge {
+            background-color: #ff9800;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Прошивки для самодельного телефона</h1>
+    
+    <div class="firmware-list">
+        <div class="firmware-item">
+            <div class="firmware-info">
+                <div class="firmware-name">KirieshkaPhone OS 2.1.0 <span class="version-badge">Новейшая</span></div>
+                <div class="firmware-details">Дата выпуска: 15.05.2023 | Размер: 245 MB</div>
+            </div>
+            <a href="/firmwares/KirieshkaPhone-OS-2.1.0.zip" class="download-btn">Скачать</a>
+        </div>
+    </div>
+    
+    <a href="/firmwares/KirieshkaPhone-OS-2.1.0.zip" class="latest-btn">Скачать последнюю прошивку (v2.1.0)</a>
+    
+    <script>
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                console.log('Скачивание прошивки: ' + this.getAttribute('href'));
+            });
+        });
+        
+        document.querySelector('.latest-btn').addEventListener('click', function(e) {
+            console.log('Скачивание последней прошивки');
+        });
+    </script>
+</body>
+</html>
